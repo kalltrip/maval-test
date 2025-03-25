@@ -1,0 +1,54 @@
+[
+    {
+        "id": "1020",
+        "name": "Hakka Noodles",
+        "serving": "Serves 2 adults",
+        "price": 230,
+        "rating": 4.3,
+        "description": "Stir-fried noodles with vegetables and soy sauce.",
+        "category": "Chinese",
+        "image": "/Maval_maratha_images/133-Hakka-Noodles.jpg",
+        "veg": true,
+        "startTime": 11,
+        "endTime": 23
+    },
+    {
+        "id": "1021",
+        "name": "Schezwan Noodles",
+        "serving": "Serves 2 adults",
+        "price": 250,
+        "rating": 4.5,
+        "description": "Spicy stir-fried noodles tossed in Schezwan sauce.",
+        "category": "Chinese",
+        "image": "/Maval_maratha_images/134-Schezwan-Noodles.jpg",
+        "veg": true,
+        "startTime": 11,
+        "endTime": 23
+    },
+    {
+        "id": "5015",
+        "name": "Hakka Noodles",
+        "serving": "Serves 2 adults",
+        "price": 250,
+        "rating": 4.5,
+        "description": "Stir-fried Hakka noodles with vegetables and chicken.",
+        "category": "Chinese",
+        "image": "/Maval_maratha_images/133-Hakka-Noodles.jpg",
+        "veg": false,
+        "startTime": 11,
+        "endTime": 23.45
+    },
+    {
+        "id": "5016",
+        "name": "Schezwan Noodles",
+        "serving": "Serves 2 adults",
+        "price": 280,
+        "rating": 4.5,
+        "description": "Spicy Schezwan-style noodles and chicken.",
+        "category": "Chinese",
+        "image": "/Maval_maratha_images/134-Schezwan-Noodles.jpg",
+        "veg": false,
+        "startTime": 11,
+        "endTime": 23.45
+    }
+]

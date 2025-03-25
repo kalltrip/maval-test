@@ -1,0 +1,66 @@
+[
+  {
+      "id": "3001",
+      "name": "Manchow Soup",
+      "serving": "Serves 2 adults",
+      "price": 150,
+      "rating": 4.5,
+      "description": "Delicious spicy soup with vegetables and crispy noodles.",
+      "category": "Soup",
+      "image": "/Maval_maratha_images/1-manchow-soup.jpg",
+      "veg": true,
+      "startTime": 11,
+      "endTime": 23
+  },
+  {
+      "id": "3002",
+      "name": "Chicken Manchow Soup",
+      "serving": "Serves 2 adults",
+      "price": 170,
+      "rating": 4.5,
+      "description": "A spicy and flavorful soup with vegetables and noodles.",
+      "category": "Soup",
+      "image": "/Maval_maratha_images/2-Chicken-manchow-soup.jpg",
+      "startTime": 11,
+      "endTime": 23.45
+  },
+  {
+      "id": "3003",
+      "name": "Paya Soup",
+      "serving": "Serves 2 adults",
+      "price": 200,
+      "rating": 4.5,
+      "description": "A rich and hearty soup made from trotters.",
+      "category": "Soup",
+      "image": "/Maval_maratha_images/3-Mutton_paya_soup-scaled.jpg",
+      "veg": false,
+      "startTime": 11,
+      "endTime": 23.45
+  },
+  {
+      "id": "3004",
+      "name": "Chicken Shorba",
+      "serving": "Serves 2 adults",
+      "price": 180,
+      "rating": 4.5,
+      "description": "A flavorful chicken broth with spices.",
+      "category": "Soup",
+      "image": "/Maval_maratha_images/4-Chicken-shorba.jpg",
+      "veg": false,
+      "startTime": 11,
+      "endTime": 23.45
+  },
+  {
+      "id": "3005",
+      "name": "Mutton Shorba",
+      "serving": "Serves 2 adults",
+      "price": 200,
+      "rating": 4.5,
+      "description": "A rich mutton broth with aromatic spices.",
+      "category": "Soup",
+      "image": "/Maval_maratha_images/5-Mutton-shorba.jpg",
+      "veg": false,
+      "startTime": 11,
+      "endTime": 23.45
+  }
+]

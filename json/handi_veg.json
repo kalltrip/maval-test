@@ -1,0 +1,54 @@
+[
+    {
+        "id": "1017",
+        "name": "Veg Handi (Full)",
+        "serving": "Serves 4 adults",
+        "price": 700,
+        "rating": 4.5,
+        "description": "A rich and flavorful mixed vegetable curry cooked in a handi.",
+        "category": "Handi",
+        "image": "Maval_maratha_images/53-Veg-Handi-Full-Portion.jpg",
+        "veg": true,
+        "startTime": 11,
+        "endTime": 23
+    },
+    {
+        "id": "1017",
+        "name": "Veg Handi (Half)",
+        "serving": "Serves 2 adults",
+        "price": 400,
+        "rating": 4.5,
+        "description": "A rich and flavorful mixed vegetable curry cooked in a handi.",
+        "category": "Handi",
+        "image": "Maval_maratha_images/52-Veg-handi-half-protion.jpg",
+        "veg": true,
+        "startTime": 11,
+        "endTime": 23
+    },
+    {
+        "id": "1018",
+        "name": "Paneer Handi Full",
+        "serving": "Serves 4 adults",
+        "price": 850,
+        "rating": 4.8,
+        "description": "Rich and creamy paneer curry cooked in a handi.",
+        "category": "Handi",
+        "image": "/Maval_maratha_images/55-Paneer-Handi-Full.gif",
+        "veg": true,
+        "startTime": 11,
+        "endTime": 23
+    },
+    {
+        "id": "1019",
+        "name": "Paneer Handi Half",
+        "serving": "Serves 2 adults",
+        "price": 480,
+        "rating": 4.8,
+        "description": "Rich and creamy paneer curry cooked in a handi.",
+        "category": "Handi",
+        "image": "Maval_maratha_images/54-Paneer -Handi-Half.gif",
+        "veg": true,
+        "startTime": 11,
+        "endTime": 23
+    }
+]
