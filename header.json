@@ -1,0 +1,18 @@
+{
+    "restaurantName": "Maval Maratha",
+    "address": "Opp Royal Orchid Lonavla",
+    "contact": ["73879-06424"],
+    "specialNotes": [
+        "If your birthday is today, please inform us.",
+        "We are not using Aluminum Utensils in our kitchen.",
+        "All food is cooked in Aqua Guard Water.",
+        "We are using the best quality oil and spices."
+    ],
+    "cuisineType": ["Maharashtrian", "Non-Vegetarian"],
+    "openingHours": {
+        "Monday-Sunday": "11:00 AM - 11:00 PM"
+    },
+    "upiId": "ariacars@unionbank",
+    "whatsappNumber": "919892527420",
+    "callNumber": "9892527420"
+}

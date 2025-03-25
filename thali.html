@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thali Menu</title>
+    <script src="menu.js"></script> <!-- Load menu.js -->
+    <link rel="stylesheet" href="styles.css"> <!-- External CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Restaurant Header Section -->
+        <header class="restaurant-info">
+            <h1 class="restaurant-name"></h1>
+            <p class="restaurant-details"></p>
+        </header>
+
+        <!-- Thali Menu Section -->
+        <div class="container-menu">
+            <h1>Thali Menu</h1>
+
+            <div class="main">
+                <h2>Vegetarian Thali</h2>
+                <div class="menu-section" id="thali-veg-menu"></div>
+            </div>
+
+            <div class="main">
+                <h2>Non-Vegetarian Thali</h2>
+                <div class="menu-section" id="thali-nonveg-menu"></div>
+            </div>
+            <!-- Back Button -->
+            <footer class="footer">
+                <a href="index.html" class="back-btn">Back to Main Page</a>
+            </footer>
+
+           
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            console.log("Page Loaded. Waiting for JSON...");
+
+            // Wait for JSON loading completion in menu.js
+            let checkDataLoaded = setInterval(() => {
+                if (window.menuDataLoaded) {  // Defined in menu.js after JSON load
+                    console.log("JSON Loaded. Filtering data...");
+                    filterDishes('thali-veg');
+                    filterDishes('thali-nonveg');
+                    clearInterval(checkDataLoaded);
+                }
+            }, 500);
+        });
+    </script>
+
+</body>
+
+</html>
